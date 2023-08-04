@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = munlima.gob.pe.\
+    config.TestContainersSpringContextCustomizerFactory,munlima.gob.pe.config.\
+    SqlTestContainersSpringContextCustomizerFactory
