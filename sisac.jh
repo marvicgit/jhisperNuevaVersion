@@ -1,0 +1,67 @@
+entity AsignarSistemaMenuARol {
+  estado Boolean
+}
+entity AsignarSistemaRolAUSuario {
+  estado Boolean
+}
+entity Funcionalidad {
+  nombre String required,
+  descripcion String,
+  sigla String required unique,
+  estado Boolean
+}
+entity Menu {
+  nombre String required,
+  icono String,
+  ruta String,
+  sigla String required unique,
+  orden Integer,
+  estado Boolean
+}
+entity Rol {
+  nombre String required,
+  descripcion String,
+  sigla String required unique,
+  estado Boolean
+}
+entity Sistema {
+  nombre String required,
+  descripcion String,
+  sigla String required unique,
+  url String,
+  captcha Boolean,
+  estado Boolean
+}
+entity Usuario {
+  nombres String required,
+  apellidoPaterno String,
+  apellidoMaterno String,
+  numeroDocumento String required,
+  sexo Genero,
+  login String required,
+  contrasenia String,
+  tipoDocumento Integer required,
+  area String,
+  cargo String,
+  correo String required,
+  estado Boolean
+}
+enum Genero {
+  MASCULINO,
+  FEMENINO,
+  OTRO
+}
+
+relationship OneToMany {
+  Rol{asignarSistemaMenuARol} to AsignarSistemaMenuARol{rol},
+  Sistema{asignarSistemaMenuARol} to AsignarSistemaMenuARol{sistema},
+  Usuario{asignarSistemaRolAUSuario} to AsignarSistemaRolAUSuario{usuario},
+  Sistema{asignarSistemaRolAUSuario} to AsignarSistemaRolAUSuario{sistema},
+  Rol{asignarSistemaRolAUSuario} to AsignarSistemaRolAUSuario{rol},
+  Menu{menu} to Menu{menu},
+  Sistema{menu} to Menu{sistema}
+}
+relationship ManyToMany {
+  AsignarSistemaMenuARol{menu} to Menu{asignarMenuRol},
+  AsignarSistemaMenuARol{funcionalidad} to Funcionalidad{asignarMenuRol}
+}
