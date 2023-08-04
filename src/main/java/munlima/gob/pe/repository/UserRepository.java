@@ -1,6 +1,5 @@
 package munlima.gob.pe.repository;
 
-import java.util.List;
 import java.util.Optional;
 import munlima.gob.pe.domain.User;
 import org.springframework.cache.annotation.Cacheable;

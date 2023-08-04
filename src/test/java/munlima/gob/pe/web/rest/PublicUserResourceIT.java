@@ -7,7 +7,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import jakarta.persistence.EntityManager;
 import munlima.gob.pe.IntegrationTest;
-import munlima.gob.pe.config.TestSecurityConfiguration;
 import munlima.gob.pe.domain.User;
 import munlima.gob.pe.repository.UserRepository;
 import munlima.gob.pe.repository.search.UserSearchRepository;

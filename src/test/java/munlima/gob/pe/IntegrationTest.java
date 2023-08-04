@@ -4,7 +4,6 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import munlima.gob.pe.SipediApp;
 import munlima.gob.pe.config.AsyncSyncConfiguration;
 import munlima.gob.pe.config.EmbeddedElasticsearch;
 import munlima.gob.pe.config.EmbeddedSQL;
