@@ -1,0 +1,11 @@
+id;title;description;due_date;date;status;type;priority
+1;Ladrillo Funcionario Práctico;Bacon Coordinador Toallas;2023-08-10;2023-08-10T08:44:31;VERIFIED;FEATURE;LOW
+2;Negro Rojo heurística;del Seguro;2023-08-10;2023-08-10T15:10:50;CANNOT_REPRODUCE;BUG;LOWER
+3;Prolongación orquestar;International;2023-08-10;2023-08-10T12:21:22;REOPENED;FEATURE;LOWER
+4;Papelería;proyecto;2023-08-10;2023-08-10T12:42:40;IN_PROGRESS;FEATURE;LOWERST
+5;Corporativo Desarrollador Comunidad;Ramal Fantástico;2023-08-10;2023-08-10T09:34:49;WONT_IMPLEMENT;FEATURE;HIGHEST
+6;interactiva Intercambiable;Papelería Toallas;2023-08-09;2023-08-10T09:25:29;DUPLICATE;BUG;LOWER
+7;Seychelles proyecto Factores;Paradigma;2023-08-10;2023-08-09T18:25:54;REOPENED;BUG;HIGHEST
+8;Vasco;Morado;2023-08-10;2023-08-10T13:24:25;WONT_IMPLEMENT;FEATURE;LOWERST
+9;Amarillo Pequeño;Rojo abierta;2023-08-09;2023-08-10T02:50:46;IN_PROGRESS;FEATURE;HIGHER
+10;Negro Electrónica Central;Sabroso Planificador Deportes;2023-08-09;2023-08-10T05:20:44;DUPLICATE;FEATURE;LOWER

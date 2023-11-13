@@ -48,6 +48,27 @@ public class CacheConfiguration {
             createCache(cm, munlima.gob.pe.domain.User.class.getName());
             createCache(cm, munlima.gob.pe.domain.Authority.class.getName());
             createCache(cm, munlima.gob.pe.domain.User.class.getName() + ".authorities");
+            createCache(cm, munlima.gob.pe.domain.Project.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Label.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Label.class.getName() + ".tickets");
+            createCache(cm, munlima.gob.pe.domain.Ticket.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Ticket.class.getName() + ".attachments");
+            createCache(cm, munlima.gob.pe.domain.Ticket.class.getName() + ".labels");
+            createCache(cm, munlima.gob.pe.domain.Attachment.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Comment.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Comment.class.getName() + ".parents");
+            createCache(cm, munlima.gob.pe.domain.Country.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Department.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Department.class.getName() + ".employees");
+            createCache(cm, munlima.gob.pe.domain.Employee.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, munlima.gob.pe.domain.Job.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Job.class.getName() + ".tasks");
+            createCache(cm, munlima.gob.pe.domain.JobHistory.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Location.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Region.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Task.class.getName());
+            createCache(cm, munlima.gob.pe.domain.Task.class.getName() + ".jobs");
             // jhipster-needle-ehcache-add-entry
         };
     }

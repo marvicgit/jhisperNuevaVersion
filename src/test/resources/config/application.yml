@@ -15,7 +15,7 @@
 
 spring:
   application:
-    name: sipedi
+    name: jhipster
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
     contexts: test
@@ -30,13 +30,13 @@ spring:
     basename: i18n/messages
   task:
     execution:
-      thread-name-prefix: sipedi-task-
+      thread-name-prefix: jhipster-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: sipedi-scheduling-
+      thread-name-prefix: jhipster-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -60,9 +60,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: 'sipediApp'
+    name: 'jhipsterApp'
   mail:
-    from: sipedi@localhost.com
+    from: jhipster@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SipediApp<sipedi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "munlima.gob.pe.SipediApp",
+            "projectName": "sipedi",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
